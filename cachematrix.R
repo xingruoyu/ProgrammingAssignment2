@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   set <- function(y){ # define set function that can define matrix x
     x <<- y
-    inv <- NULL # make sure that this vector is cleared when function is used again
+    inv <<- NULL # make sure that this vector is cleared when function is used again
   }
   
   get <- function() x # define "get" function that gets the contents of matrix x
